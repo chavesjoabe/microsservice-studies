@@ -1,8 +1,8 @@
-package com.joabechaves.hrpayroll.services;
+package com.joabechaves.hrpayroll2.services;
 
-import com.joabechaves.hrpayroll.entites.Payment;
-import com.joabechaves.hrpayroll.entites.Worker;
-import com.joabechaves.hrpayroll.feignClients.WorkerFeignClient;
+import com.joabechaves.hrpayroll2.entities.Payment;
+import com.joabechaves.hrpayroll2.entities.Worker;
+import com.joabechaves.hrpayroll2.feignClients.WorkerFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

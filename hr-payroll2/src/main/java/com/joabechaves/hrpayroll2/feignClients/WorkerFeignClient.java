@@ -1,7 +1,7 @@
-package com.joabechaves.hrpayroll.feignClients;
+package com.joabechaves.hrpayroll2.feignClients;
 
 
-import com.joabechaves.hrpayroll.entites.Worker;
+import com.joabechaves.hrpayroll2.entities.Worker;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,7 +1,7 @@
-package com.joabechaves.hrpayroll.controllers;
+package com.joabechaves.hrpayroll2.controllers;
 
-import com.joabechaves.hrpayroll.entites.Payment;
-import com.joabechaves.hrpayroll.services.PaymentService;
+import com.joabechaves.hrpayroll2.entities.Payment;
+import com.joabechaves.hrpayroll2.services.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
