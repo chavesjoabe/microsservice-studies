@@ -42,6 +42,7 @@ public class WorkerController {
         }
          */
 
+
         logger.info("port = "+ env.getProperty("local.server.port"));
 
         return ResponseEntity.status(HttpStatus.OK).body(this.service.findById(id));
