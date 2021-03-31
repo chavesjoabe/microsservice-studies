@@ -25,8 +25,8 @@ public class PaymentController {
     }
 
     public ResponseEntity<Payment> getPaymentAlternative( Long workerId,  Integer days){
-        Payment payment = new Payment("José das Couves", 500.0, 12);
+        Payment payment = new Payment("ERRO NA API", 500.0, 12);
         return ResponseEntity.status(HttpStatus.OK).body(payment);
     }
 
-    }
+}
