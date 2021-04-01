@@ -27,7 +27,7 @@ public class UserController {
     }
 
     @GetMapping("/search")
-    public ResponseEntity<User> findById(@RequestParam String email){
+    public ResponseEntity<User> findByEmail(@RequestParam String email){
         return ResponseEntity.status(HttpStatus.OK).body(this.service.findByEmail(email));
     }
 }
