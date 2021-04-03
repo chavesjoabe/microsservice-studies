@@ -24,8 +24,8 @@ public class WorkerController {
 
     private static Logger logger = LoggerFactory.getLogger(WorkerController.class);
 
-    @Value("${test.config}")
-    private String testConfig;
+    //@Value("${test.config}")
+    //private String testConfig;
 
     @Autowired
     private Environment env;
@@ -35,7 +35,7 @@ public class WorkerController {
 
     @GetMapping("/configs")
     public ResponseEntity<Void> getConfig(){
-        logger.info("Config = "+testConfig);
+        //logger.info("Config = "+testConfig);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
 
